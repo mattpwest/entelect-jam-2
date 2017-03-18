@@ -35,8 +35,7 @@ public class Controller : MonoBehaviour
         var moveSpeed = new Vector2(speed, this.rigidbody2D.velocity.y);
         // checks if you are within 0.15 position in the Y of the ground
         var grounded = Physics2D.OverlapCircle(groundSensor.transform.position, 0.15f, groundLayer) != null;
-        Debug.Log(grounded);
-
+        //Debug.Log(grounded);
 
         this.rigidbody2D.velocity = moveSpeed;
 

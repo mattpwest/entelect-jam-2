@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 212310263701634826}
   - component: {fileID: 50723614404009460}
   - component: {fileID: 60014535207877458}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: TilesGrassHillRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39,7 +39,7 @@ GameObject:
   - component: {fileID: 4260335874628678}
   - component: {fileID: 212600466509400722}
   - component: {fileID: 50532563287705646}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: TilesHillRightInner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
