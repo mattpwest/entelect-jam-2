@@ -29,7 +29,7 @@ public class Timer : MonoBehaviour {
         }
 
         if (TotalSeconds <= 0) {
-            SceneManager.LoadScene("Lost");
+            Manager.Instance().ToLost();
         }
 
         int minutes = TotalSeconds / 60;

@@ -5,6 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class OnLevelExit : MonoBehaviour {
     void OnTriggerEnter2D(Collider2D collision) {
-        SceneManager.LoadScene("Victory");
+        Manager.Instance().ToMenuForNextLevel();
     }
 }
