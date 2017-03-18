@@ -75,8 +75,6 @@ public class Controller : MonoBehaviour
             this.ladderMounted = false;
         }
 
-        Debug.Log(ladderMounted);
-        Debug.Log(speedY);
         FeedLadderMountedIntoAnimator(ladderMounted);
         FeedGroundedIntoAnimator(grounded);
         FeedHorizontalVelocityToAnimator(speedX);

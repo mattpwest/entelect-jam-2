@@ -4,11 +4,12 @@ using UnityEngine;
 
 public class TimePowerup : MonoBehaviour {
 
+    public int Seconds = 15;
     private Timer Timer;
 
     void OnTriggerEnter2D(Collider2D collision) {
         // Cheap & dirty - if anything hits us add time
-        Timer.AddTime(0, 15);
+        Timer.AddTime(0, Seconds);
         Destroy(this.gameObject);
     }
 

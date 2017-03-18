@@ -21,7 +21,6 @@ public class Timer : MonoBehaviour {
 	}
 	
 	void Update () {
-        Debug.Log(TotalSeconds);
         TimeAccumulated += Time.deltaTime;
 
         if (TimeAccumulated >= 1.0f) {

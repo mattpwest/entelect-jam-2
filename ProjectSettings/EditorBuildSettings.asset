@@ -9,3 +9,5 @@ EditorBuildSettings:
     path: Assets/Scenes/Example.unity
   - enabled: 1
     path: Assets/Scenes/Victory.unity
+  - enabled: 1
+    path: Assets/Scenes/Lost.unity
